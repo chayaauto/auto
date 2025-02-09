@@ -1,0 +1,1 @@
+const questions =[{"answers":["מירי","חיה","שרה","רבקה"],"question":"מי אני","correctAnswer":1}]
