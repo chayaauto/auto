@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>משחק טריוויה</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <nav>
-        <ul>
-            <li><a href="aa/index.html">Page 1</a></li>
-            <li><a href="bb/index.html">Page 2</a></li>
-        </ul>
-    </nav>
-    <p>This is the main page.</p>
+  <div class="container">
+    <h1>משחק טריוויה</h1>
+    <div id="question-container">
+      <p id="question">שאלה תוצג כאן</p>
+      <ul id="answers">
+        <li><button class="answer-btn">תשובה 1</button></li>
+        <li><button class="answer-btn">תשובה 2</button></li>
+        <li><button class="answer-btn">תשובה 3</button></li>
+        <li><button class="answer-btn">תשובה 4</button></li>
+      </ul>
+    </div>
+    <div id="result"></div>
+    <button id="next-button" class="hidden">שאלה הבאה</button>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
