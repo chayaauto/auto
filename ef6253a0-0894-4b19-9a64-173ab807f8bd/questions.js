@@ -1,0 +1,1 @@
+const questions =[{"answers":["1","2","3","4"],"question":"שאלה לדוגמה","correctAnswer":1},{"answers":["A","B","C","D"],"question":"שאלה שניה","correctAnswer":1}]
